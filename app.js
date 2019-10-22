@@ -8,4 +8,4 @@ app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
-module.exports = app; // Lucas
+module.exports = app;
