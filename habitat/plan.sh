@@ -26,8 +26,6 @@ pkg_svc_user=root
 # to install dependencies and assemble the application package.
 
 do_build() {
-  exit 1;
-
   # By default, we're in the directory in which the Studio was entered
   # (in this case, presumably the project root), so we can run commands
   # as though we were in that same directory. By the time we reach this
